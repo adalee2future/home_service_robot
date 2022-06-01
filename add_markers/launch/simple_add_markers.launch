@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+<rosparam file="$(find add_markers)/config/navigation_goal.yaml"/>
+<node name="simple_add_markers" pkg="add_markers" type="simple_add_markers" output="screen"/>
+
+</launch>
