@@ -1,0 +1,13 @@
+pick_up : {
+  position_x: 2.89,
+  position_y: 0.09,
+  orientation_z: 0.95,
+  orientation_w: 0.32
+}
+
+drop_off : {
+  position_x: 3.00,
+  position_y: 2.68,
+  orientation_z: -0.45,
+  orientation_w: 0.89
+}
