@@ -25,8 +25,8 @@ int main(int argc, char** argv){
 
   // Pickup Goal
   // Define a position and orientation for the robot to reach
-  goal.target_pose.pose.position.x = -3.27;
-  goal.target_pose.pose.position.y = 1.70;
+  goal.target_pose.pose.position.x = 2.89;
+  goal.target_pose.pose.position.y = 0.09;
   goal.target_pose.pose.orientation.z = 0.95;
   goal.target_pose.pose.orientation.w = 0.32;
 
@@ -44,11 +44,12 @@ int main(int argc, char** argv){
     ROS_INFO("FAILURE: Could not reach pickup goal!");
 
   // Sleep 5 seconds
+  ROS_INFO("Sleep for 5 seconds");
   ros::Duration(5.0).sleep();
 
   // Define a position and orientation for the robot to reach
-  goal.target_pose.pose.position.x = -4.53;
-  goal.target_pose.pose.position.y = -1.88;
+  goal.target_pose.pose.position.x = 3.00;
+  goal.target_pose.pose.position.y = 2.68;
   goal.target_pose.pose.orientation.z = -0.45;
   goal.target_pose.pose.orientation.w = 0.89;
 
